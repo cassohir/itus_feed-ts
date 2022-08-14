@@ -1,0 +1,27 @@
+header {
+  background-color: var(--gray-800);
+  display: flex;
+  justify-content: center;
+
+  height: 80px;
+  padding: 1.25rem;
+}
+header h2 {
+  display: flex;
+  align-items: center;
+  transform: translateY(-25%);
+}
+
+header img {
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    align-items: center;
+  }
+  header h2 {
+    transform: translateY(9%);
+  }
+}
